@@ -21,12 +21,12 @@ export function Reasons() {
       <div className="right-r">
         <span>some reasons</span>
 
-        <div className="details-r">
+        <div>
           <span className="stroke-text">why</span>
           <span> choose us?</span>
         </div>
 
-        <div>
+        <div className="details-r">
           <div>
             <img src={tick} alt=""></img>
             <span>OVER 140+ EXPERT COACHS</span>
@@ -43,6 +43,19 @@ export function Reasons() {
             <img src={tick} alt="" />
             <span>RELIABLE PARTNERS</span>
           </div>
+        </div>
+        <span
+          style={{
+            color: "var(--gray)",
+            fontWeight: "normal",
+          }}
+        >
+          OUR PARTNERS
+        </span>
+        <div className="partners">
+          <img src={nb} alt="" />
+          <img src={adidas} alt="" />
+          <img src={nike} alt="" />
         </div>
       </div>
     </div>

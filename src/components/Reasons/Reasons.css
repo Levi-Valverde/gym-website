@@ -68,4 +68,20 @@
 
 .details-r > div {
   display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+.details-r > div > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.partners {
+  display: flex;
+  gap: 1rem;
+}
+
+.partners > img {
+  width: 2.5rem;
 }
