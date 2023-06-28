@@ -7,9 +7,8 @@ import rightArrow from "../../assets/rightArrow.png";
 import { motion } from "framer-motion";
 
 export function Testimonials() {
-  const [selected, setSelected] = useState(0);
   const transition = { type: "spring", duration: 3 };
-
+  const [selected, setSelected] = useState(0);
   const tLength = testimonialsData.length;
 
   return (
@@ -67,7 +66,7 @@ export function Testimonials() {
           <img
             onClick={() => {
               selected === tLength - 1
-                ? selected(0)
+                ? setSelected(0)
                 : setSelected((prev) => prev + 1);
             }}
             src={rightArrow}
