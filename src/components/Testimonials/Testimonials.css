@@ -96,4 +96,17 @@
     position: relative;
     display: none;
   }
+
+  .right-t > img {
+    top: 0;
+    right: 0;
+    position: relative;
+    align-self: center;
+  }
+
+  .right-t > :last-child {
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
 }
